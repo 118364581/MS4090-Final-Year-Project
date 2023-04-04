@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\MS4090 FYP 118364581 Conor McMahon\\MS4090 FYP 118364581 Conor McMahon.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\MS4090 FYP 118364581 Conor McMahon\\MS4090 FYP 118364581 Conor McMahon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\MS4090 FYP 118364581 Conor McMahon\\MS4090 FYP 118364581 Conor McMahon.csproj",
+        "projectName": "MS4090 FYP 118364581 Conor McMahon",
+        "projectPath": "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\MS4090 FYP 118364581 Conor McMahon\\MS4090 FYP 118364581 Conor McMahon.csproj",
+        "packagesPath": "C:\\Users\\conor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\MS4090 FYP 118364581 Conor McMahon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\conor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "encog-dotnet-core": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

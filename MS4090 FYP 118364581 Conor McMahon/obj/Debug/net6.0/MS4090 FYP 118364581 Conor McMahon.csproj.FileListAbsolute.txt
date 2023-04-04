@@ -1,0 +1,17 @@
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\bin\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.exe
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\bin\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.deps.json
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\bin\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.runtimeconfig.json
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\bin\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.dll
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\bin\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.pdb
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\bin\Debug\net6.0\encog-core-cs.dll
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.csproj.AssemblyReference.cache
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.AssemblyInfoInputs.cache
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.AssemblyInfo.cs
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.csproj.CoreCompileInputs.cache
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.csproj.CopyComplete
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.dll
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\refint\MS4090 FYP 118364581 Conor McMahon.dll
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.pdb
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\MS4090 FYP 118364581 Conor McMahon.genruntimeconfig.cache
+C:\Users\conor\OneDrive - University College Cork\FYP\MS4090 FYP 118364581 Conor McMahon\obj\Debug\net6.0\ref\MS4090 FYP 118364581 Conor McMahon.dll
