@@ -5,31 +5,10 @@ train = head(data$VALUE, 250)
 test = tail(data$VALUE, 62)
 
 ReCA.Forecast1 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\ReCA Forecast Results 1.csv", header = FALSE)
-ReCA.Forecast2 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\ReCA Forecast Results 2.csv", header = FALSE)
-ReCA.Forecast3 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\ReCA Forecast Results 3.csv", header = FALSE)
-ReCA.Forecast4 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\ReCA Forecast Results 4.csv", header = FALSE)
-ReCA.Forecast5 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\ReCA Forecast Results 5.csv", header = FALSE)
-ReCA.Forecast6 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\ReCA Forecast Results 6.csv", header = FALSE)
-ReCA.Forecast7 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\ReCA Forecast Results 7.csv", header = FALSE)
-ReCA.Forecast8 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\ReCA Forecast Results 8.csv", header = FALSE)
 
 Elman.Forecast1 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Elman Forecast Results 1.csv", header = FALSE)
-Elman.Forecast2 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Elman Forecast Results 2.csv", header = FALSE)
-Elman.Forecast3 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Elman Forecast Results 3.csv", header = FALSE)
-Elman.Forecast4 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Elman Forecast Results 4.csv", header = FALSE)
-Elman.Forecast5 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Elman Forecast Results 5.csv", header = FALSE)
-Elman.Forecast6 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Elman Forecast Results 6.csv", header = FALSE)
-Elman.Forecast7 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Elman Forecast Results 7.csv", header = FALSE)
-Elman.Forecast8 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Elman Forecast Results 8.csv", header = FALSE)
 
 Jordan.Forecast1 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Jordan Forecast Results 1.csv", header = FALSE)
-Jordan.Forecast2 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Jordan Forecast Results 2.csv", header = FALSE)
-Jordan.Forecast3 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Jordan Forecast Results 3.csv", header = FALSE)
-Jordan.Forecast4 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Jordan Forecast Results 4.csv", header = FALSE)
-Jordan.Forecast5 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Jordan Forecast Results 5.csv", header = FALSE)
-Jordan.Forecast6 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Jordan Forecast Results 6.csv", header = FALSE)
-Jordan.Forecast7 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Jordan Forecast Results 7.csv", header = FALSE)
-Jordan.Forecast8 = read.csv(file = "C:\\Users\\conor\\OneDrive - University College Cork\\FYP\\Results Data\\Jordan Forecast Results 8.csv", header = FALSE)
 
 nrow(ReCA.Forecast1)
 dim(Elman.Forecast1)
@@ -42,26 +21,7 @@ Dates = data$Month[date_vals]
 ReCA1.High = numeric(nrow(ReCA.Forecast1))
 ReCA1.Low = numeric(nrow(ReCA.Forecast1))
 
-ReCA2.High = numeric(nrow(ReCA.Forecast2))
-ReCA2.Low = numeric(nrow(ReCA.Forecast2))
 
-ReCA3.High = numeric(nrow(ReCA.Forecast3))
-ReCA3.Low = numeric(nrow(ReCA.Forecast3))
-
-ReCA4.High = numeric(nrow(ReCA.Forecast4))
-ReCA4.Low = numeric(nrow(ReCA.Forecast4))
-
-ReCA5.High = numeric(nrow(ReCA.Forecast5))
-ReCA5.Low = numeric(nrow(ReCA.Forecast5))
-
-ReCA6.High = numeric(nrow(ReCA.Forecast6))
-ReCA6.Low = numeric(nrow(ReCA.Forecast6))
-
-ReCA7.High = numeric(nrow(ReCA.Forecast7))
-ReCA7.Low = numeric(nrow(ReCA.Forecast7))
-
-ReCA8.High = numeric(nrow(ReCA.Forecast8))
-ReCA8.Low = numeric(nrow(ReCA.Forecast8))
 
 
 
@@ -69,26 +29,7 @@ ReCA8.Low = numeric(nrow(ReCA.Forecast8))
 Elman1.High = numeric(nrow(Elman.Forecast1))
 Elman1.Low = numeric(nrow(Elman.Forecast1))
 
-Elman2.High = numeric(nrow(Elman.Forecast2))
-Elman2.Low = numeric(nrow(Elman.Forecast2))
 
-Elman3.High = numeric(nrow(Elman.Forecast3))
-Elman3.Low = numeric(nrow(Elman.Forecast3))
-
-Elman4.High = numeric(nrow(Elman.Forecast4))
-Elman4.Low = numeric(nrow(Elman.Forecast4))
-
-Elman5.High = numeric(nrow(Elman.Forecast5))
-Elman5.Low = numeric(nrow(Elman.Forecast5))
-
-Elman6.High = numeric(nrow(Elman.Forecast6))
-Elman6.Low = numeric(nrow(Elman.Forecast6))
-
-Elman7.High = numeric(nrow(Elman.Forecast7))
-Elman7.Low = numeric(nrow(Elman.Forecast7))
-
-Elman8.High = numeric(nrow(Elman.Forecast8))
-Elman8.Low = numeric(nrow(Elman.Forecast8))
 
 
 
@@ -96,26 +37,7 @@ Elman8.Low = numeric(nrow(Elman.Forecast8))
 Jordan1.High = numeric(nrow(Jordan.Forecast1))
 Jordan1.Low = numeric(nrow(Jordan.Forecast1))
 
-Jordan2.High = numeric(nrow(Jordan.Forecast2))
-Jordan2.Low = numeric(nrow(Jordan.Forecast2))
 
-Jordan3.High = numeric(nrow(Jordan.Forecast3))
-Jordan3.Low = numeric(nrow(Jordan.Forecast3))
-
-Jordan4.High = numeric(nrow(Jordan.Forecast4))
-Jordan4.Low = numeric(nrow(Jordan.Forecast4))
-
-Jordan5.High = numeric(nrow(Jordan.Forecast5))
-Jordan5.Low = numeric(nrow(Jordan.Forecast5))
-
-Jordan6.High = numeric(nrow(Jordan.Forecast6))
-Jordan6.Low = numeric(nrow(Jordan.Forecast6))
-
-Jordan7.High = numeric(nrow(Jordan.Forecast7))
-Jordan7.Low = numeric(nrow(Jordan.Forecast7))
-
-Jordan8.High = numeric(nrow(Jordan.Forecast8))
-Jordan8.Low = numeric(nrow(Jordan.Forecast8))
 
 
 
@@ -141,80 +63,16 @@ length(Jordan1.High)
 for(i in 1:nrow(ReCA.Forecast1)){
   ReCA1.High[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (1.9*ReCA.Forecast1[i,1] + 0.6*ReCA.Forecast1[i,2] + 0.2*ReCA.Forecast1[i,3] - 0.2*ReCA.Forecast1[i,4])
   ReCA1.Low[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (0.6*ReCA.Forecast1[i,1] + 0.2*ReCA.Forecast1[i,2] - 0.2*ReCA.Forecast1[i,3] - 2.4*ReCA.Forecast1[i,4])
-
-  ReCA2.High[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (1.9*ReCA.Forecast2[i,1] + 0.6*ReCA.Forecast2[i,2] + 0.2*ReCA.Forecast2[i,3] - 0.2*ReCA.Forecast2[i,4])
-  ReCA2.Low[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (0.6*ReCA.Forecast2[i,1] + 0.2*ReCA.Forecast2[i,2] - 0.2*ReCA.Forecast2[i,3] - 2.4*ReCA.Forecast2[i,4])
-
-  ReCA3.High[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (1.9*ReCA.Forecast3[i,1] + 0.6*ReCA.Forecast3[i,2] + 0.2*ReCA.Forecast3[i,3] - 0.2*ReCA.Forecast3[i,4])
-  ReCA3.Low[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (0.6*ReCA.Forecast3[i,1] + 0.2*ReCA.Forecast3[i,2] - 0.2*ReCA.Forecast3[i,3] - 2.4*ReCA.Forecast3[i,4])
-
-  ReCA4.High[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (1.9*ReCA.Forecast4[i,1] + 0.6*ReCA.Forecast4[i,2] + 0.2*ReCA.Forecast4[i,3] - 0.2*ReCA.Forecast4[i,4])
-  ReCA4.Low[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (0.6*ReCA.Forecast4[i,1] + 0.2*ReCA.Forecast4[i,2] - 0.2*ReCA.Forecast4[i,3] - 2.4*ReCA.Forecast4[i,4])
-
-  ReCA5.High[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (1.9*ReCA.Forecast4[i,1] + 0.6*ReCA.Forecast5[i,2] + 0.2*ReCA.Forecast5[i,3] - 0.2*ReCA.Forecast5[i,4])
-  ReCA5.Low[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (0.6*ReCA.Forecast5[i,1] + 0.2*ReCA.Forecast5[i,2] - 0.2*ReCA.Forecast5[i,3] - 2.4*ReCA.Forecast5[i,4])
-
-  ReCA6.High[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (1.9*ReCA.Forecast6[i,1] + 0.6*ReCA.Forecast6[i,2] + 0.2*ReCA.Forecast6[i,3] - 0.2*ReCA.Forecast6[i,4])
-  ReCA6.Low[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (0.6*ReCA.Forecast6[i,1] + 0.2*ReCA.Forecast6[i,2] - 0.2*ReCA.Forecast6[i,3] - 2.4*ReCA.Forecast6[i,4])
-
-  ReCA7.High[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (1.9*ReCA.Forecast7[i,1] + 0.6*ReCA.Forecast7[i,2] + 0.2*ReCA.Forecast7[i,3] - 0.2*ReCA.Forecast7[i,4])
-  ReCA7.Low[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (0.6*ReCA.Forecast7[i,1] + 0.2*ReCA.Forecast7[i,2] - 0.2*ReCA.Forecast7[i,3] - 2.4*ReCA.Forecast7[i,4])
-
-  ReCA8.High[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (1.9*ReCA.Forecast8[i,1] + 0.6*ReCA.Forecast8[i,2] + 0.2*ReCA.Forecast8[i,3] - 0.2*ReCA.Forecast8[i,4])
-  ReCA8.Low[i] = data$VALUE[i + 311 - nrow(ReCA.Forecast1)] + (0.6*ReCA.Forecast8[i,1] + 0.2*ReCA.Forecast8[i,2] - 0.2*ReCA.Forecast8[i,3] - 2.4*ReCA.Forecast8[i,4])
-
 }
 
 for(i in 1:nrow(Elman.Forecast1)){
   Elman1.High[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (1.9*Elman.Forecast1[i,1] + 0.6*Elman.Forecast1[i,2] + 0.2*Elman.Forecast1[i,3] - 0.2*Elman.Forecast1[i,4])
   Elman1.Low[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (0.6*Elman.Forecast1[i,1] + 0.2*Elman.Forecast1[i,2] - 0.2*Elman.Forecast1[i,3] - 2.4*Elman.Forecast1[i,4])
-
-  Elman2.High[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (1.9*Elman.Forecast2[i,1] + 0.6*Elman.Forecast2[i,2] + 0.2*Elman.Forecast2[i,3] - 0.2*Elman.Forecast2[i,4])
-  Elman2.Low[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (0.6*Elman.Forecast2[i,1] + 0.2*Elman.Forecast2[i,2] - 0.2*Elman.Forecast2[i,3] - 2.4*Elman.Forecast2[i,4])
-
-  Elman3.High[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (1.9*Elman.Forecast3[i,1] + 0.6*Elman.Forecast3[i,2] + 0.2*Elman.Forecast3[i,3] - 0.2*Elman.Forecast3[i,4])
-  Elman3.Low[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (0.6*Elman.Forecast3[i,1] + 0.2*Elman.Forecast3[i,2] - 0.2*Elman.Forecast3[i,3] - 2.4*Elman.Forecast3[i,4])
-
-  Elman4.High[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (1.9*Elman.Forecast4[i,1] + 0.6*Elman.Forecast4[i,2] + 0.2*Elman.Forecast4[i,3] - 0.2*Elman.Forecast4[i,4])
-  Elman4.Low[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (0.6*Elman.Forecast4[i,1] + 0.2*Elman.Forecast4[i,2] - 0.2*Elman.Forecast4[i,3] - 2.4*Elman.Forecast4[i,4])
-
-  Elman5.High[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (1.9*Elman.Forecast5[i,1] + 0.6*Elman.Forecast5[i,2] + 0.2*Elman.Forecast5[i,3] - 0.2*Elman.Forecast5[i,4])
-  Elman5.Low[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (0.6*Elman.Forecast5[i,1] + 0.2*Elman.Forecast5[i,2] - 0.2*Elman.Forecast5[i,3] - 2.4*Elman.Forecast5[i,4])
-
-  Elman6.High[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (1.9*Elman.Forecast6[i,1] + 0.6*Elman.Forecast6[i,2] + 0.2*Elman.Forecast6[i,3] - 0.2*Elman.Forecast6[i,4])
-  Elman6.Low[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (0.6*Elman.Forecast6[i,1] + 0.2*Elman.Forecast6[i,2] - 0.2*Elman.Forecast6[i,3] - 2.4*Elman.Forecast6[i,4])
-
-  Elman7.High[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (1.9*Elman.Forecast7[i,1] + 0.6*Elman.Forecast7[i,2] + 0.2*Elman.Forecast7[i,3] - 0.2*Elman.Forecast7[i,4])
-  Elman7.Low[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (0.6*Elman.Forecast7[i,1] + 0.2*Elman.Forecast7[i,2] - 0.2*Elman.Forecast7[i,3] - 2.4*Elman.Forecast7[i,4])
-
-  Elman8.High[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (1.9*Elman.Forecast8[i,1] + 0.6*Elman.Forecast8[i,2] + 0.2*Elman.Forecast8[i,3] - 0.2*Elman.Forecast8[i,4])
-  Elman8.Low[i] = data$VALUE[i + 311 - nrow(Elman.Forecast1)] + (0.6*Elman.Forecast8[i,1] + 0.2*Elman.Forecast8[i,2] - 0.2*Elman.Forecast8[i,3] - 2.4*Elman.Forecast8[i,4])
 }
 
 for(i in 1:nrow(Jordan.Forecast1)){
   Jordan1.High[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (1.9*Jordan.Forecast1[i,1] + 0.6*Jordan.Forecast1[i,2] + 0.2*Jordan.Forecast1[i,3] - 0.2*Jordan.Forecast1[i,4])
-  Jordan1.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast1[i,1] + 0.2*Jordan.Forecast1[i,2] - 0.2*Jordan.Forecast1[i,3] - 2.4*Jordan.Forecast1[i,4])
-
-  Jordan2.High[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (1.9*Jordan.Forecast2[i,1] + 0.6*Jordan.Forecast2[i,2] + 0.2*Jordan.Forecast2[i,3] - 0.2*Jordan.Forecast2[i,4])
-  Jordan2.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast2[i,1] + 0.2*Jordan.Forecast2[i,2] - 0.2*Jordan.Forecast2[i,3] - 2.4*Jordan.Forecast2[i,4])
-
-  Jordan3.High[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (1.9*Jordan.Forecast3[i,1] + 0.6*Jordan.Forecast3[i,2] + 0.2*Jordan.Forecast3[i,3] - 0.2*Jordan.Forecast3[i,4])
-  Jordan3.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast3[i,1] + 0.2*Jordan.Forecast3[i,2] - 0.2*Jordan.Forecast3[i,3] - 2.4*Jordan.Forecast3[i,4])
-
-  Jordan4.High[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (1.9*Jordan.Forecast4[i,1] + 0.6*Jordan.Forecast4[i,2] + 0.2*Jordan.Forecast4[i,3] - 0.2*Jordan.Forecast4[i,4])
-  Jordan4.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast4[i,1] + 0.2*Jordan.Forecast4[i,2] - 0.2*Jordan.Forecast4[i,3] - 2.4*Jordan.Forecast4[i,4])
-
-  Jordan5.High[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (1.9*Jordan.Forecast5[i,1] + 0.6*Jordan.Forecast5[i,2] + 0.2*Jordan.Forecast5[i,3] - 0.2*Jordan.Forecast5[i,4])
-  Jordan5.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast5[i,1] + 0.2*Jordan.Forecast5[i,2] - 0.2*Jordan.Forecast5[i,3] - 2.4*Jordan.Forecast5[i,4])
-
-  Jordan6.High[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (1.9*Jordan.Forecast6[i,1] + 0.6*Jordan.Forecast6[i,2] + 0.2*Jordan.Forecast6[i,3] - 0.2*Jordan.Forecast6[i,4])
-  Jordan6.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast6[i,1] + 0.2*Jordan.Forecast6[i,2] - 0.2*Jordan.Forecast6[i,3] - 2.4*Jordan.Forecast6[i,4])
-
-  Jordan7.High[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (1.9*Jordan.Forecast7[i,1] + 0.6*Jordan.Forecast7[i,2] + 0.2*Jordan.Forecast7[i,3] - 0.2*Jordan.Forecast7[i,4])
-  Jordan7.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast7[i,1] + 0.2*Jordan.Forecast7[i,2] - 0.2*Jordan.Forecast7[i,3] - 2.4*Jordan.Forecast7[i,4])
-
-  Jordan8.High[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (1.9*Jordan.Forecast8[i,1] + 0.6*Jordan.Forecast8[i,2] + 0.2*Jordan.Forecast8[i,3] - 0.2*Jordan.Forecast8[i,4])
-  Jordan8.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast8[i,1] + 0.2*Jordan.Forecast8[i,2] - 0.2*Jordan.Forecast8[i,3] - 2.4*Jordan.Forecast8[i,4])
+  Jordan1.Low[i] = data$VALUE[i + 311 - nrow(Jordan.Forecast1)] + (0.6*Jordan.Forecast1[i,1] + 0.2*Jordan.Forecast1[i,2] - 0.2*Jordan.Forecast1[i,3] - 2.4*Jordan.Forecast1[i,4]
 }
 
 
@@ -232,18 +90,6 @@ nrow(Elman.Forecast1)
 nrow(Jordan.Forecast1)
 
 
-ReCA.Accuracy = vector(length = nrow(ReCA.Forecast1))
-ReCA.Accuracy2 = vector(length = nrow(ReCA.Forecast2))
-ReCA.Accuracy3 = vector(length = nrow(ReCA.Forecast3))
-ReCA.Accuracy4 = vector(length = nrow(ReCA.Forecast4))
-ReCA.Accuracy5 = vector(length = nrow(ReCA.Forecast5))
-ReCA.Accuracy6 = vector(length = nrow(ReCA.Forecast6))
-ReCA.Accuracy7 = vector(length = nrow(ReCA.Forecast7))
-ReCA.Accuracy8 = vector(length = nrow(ReCA.Forecast8))
-ReCA.Accuracy9 = vector(length = nrow(ReCA.Forecast1))
-ReCA.Accuracy10 = vector(length = nrow(ReCA.Forecast1))
-ReCA.Accuracy = vector(length = nrow(ReCA.Forecast1))
-ReCA.Accuracy = vector(length = nrow(ReCA.Forecast1))
 ReCA.Accuracy = vector(length = nrow(ReCA.Forecast1))
 
 
@@ -266,10 +112,6 @@ for (i in 1:nrow(Elman.Forecast1)){
 
 for (i in 1:nrow(Jordan.Forecast1)){
     Jordan.Accuracy[i] = Jordan.Check[i,1]*Jordan.Forecast1[i,1] + Jordan.Check[i,2]*Jordan.Forecast1[i,2] + Jordan.Check[i,3]*Jordan.Forecast1[i,3] + Jordan.Check[i,4]*Jordan.Forecast1[i,4]
-}
-
-for(i in 1:nrow(ReCA.Forecast2)){
-    ReCA2.Accuracy[i] = ReCA.Check[i,1]*ReCA.Forecast2[i,1] + ReCA.Check[i,2]*ReCA.Forecast2[i,2] + ReCA.Check[i,3]*ReCA.Forecast2[i,3] + ReCA.Check[i,4]*ReCA.Forecast2[i,4]
 }
 
 
